@@ -13,10 +13,39 @@ body{
   flex-direction: row;
   gap: 20%;
 }
+.n{
+  width: 10%;
+  height: 10%;
+}
+.m{
+  width: 10%;
+  height: 10%;
+}
+.o{
+  width: 5px;
+  height: 10%;
+}
+.p{
+  width: 10%;
+  height: 10%;
+}
+
 .container1{
     display: flex;
     flex-direction: row;
     gap: 10%;
+}
+.container3{
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+}
+.cont3{
+  transform:rotate(+20deg)
+  
+}
+.cont5{
+  transform:rotate(+20deg)
 }
 .cont1{
   display: flex;
@@ -37,12 +66,50 @@ gap: 10%;
 display: flex;
 flex-direction: row;
 gap: 10%;
+background-color: midnightblue;
+color: white;
+}
+button{
+  color:whitesmoke;
+  background-color: fuchsia;
+}
+.cont6{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+  gap: 10%;
+}
+.select{
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  
 }
 
-@media screen  and (min-width: 0px),(max-width:2560px){
+
+
+@media screen  and (min-width: 400px),(max-width:600px){
   .icons{
     display:flex;
     flex-wrap: wrap;
   }
+  .container1{
+    display: flex;
+    flex-wrap: wrap;
   
+}
+.container3{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20%;
+}
+.container4{
+  display: flex;
+  flex-wrap: wrap;
+}
+.container5{
+  display: flex;
+  flex-wrap: wrap;
+}
 }
